@@ -1,4 +1,4 @@
-# FDG-PET-CT_AI
+# FDG-PET/CT_AI
 This repository is created to release the model weights for the following paper: "Development and validation of pan-cancer lesion segmentation AI-model for whole-body 18F-FDG PET/CT in diverse clinical cohorts"
 
 

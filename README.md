@@ -7,7 +7,7 @@ We have used 3D full resolution nnUNet model( https://www.nature.com/articles/s4
 
 
 
-For model development: AUTOPET open access dataset has been used. The dataset can be downloaded from https://www.cancerimagingarchive.net/collection/fdg-pet-ct-lesions/
+For model development: AUTOPET open access dataset has been used. The dataset can be downloaded from https://drive.google.com/drive/folders/1luNhXZtdn2d12nPmLOMWTAjNCiqQOu4u?usp=drive_link
 
 
 

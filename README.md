@@ -13,3 +13,5 @@ For model development: AUTOPET open access dataset has been used. The dataset ca
 
 
 Model weights can be downloaded from google drive: https://drive.google.com/drive/folders/1luNhXZtdn2d12nPmLOMWTAjNCiqQOu4u?usp=sharing
+
+Use inference.sh to run inference using the model weights. The folders and data structure as same as instructed for nnUNet. 

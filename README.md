@@ -14,7 +14,7 @@
   python3 -W ignore tcia_dicom_to_nifti.py /PATH/TO/DICOM/FDG-PET-CT-Lesions/ /PATH/TO/NIFTI/FDG-PET-CT-Lesions/
 ````
 9.  PET images should be renamed as channel 1 input with ***'_0000.nii.gz'*** extension and CT images ***'_0001.nii.gz'***. Example PET image: ***PETCT_0ea07b421b_0000.nii.gz***, CT Image: ***PETCT_0ea07b421b_0001.nii.gz***
-10. The PET/CT image files needs to be put inside the ***'/nnUNet_raw/Dataset101_PETCT'*** path.
+10. The PET/CT image files needs to be put inside the ***'/nnUNet_raw/Dataset101_PETCT/imagesTe'*** path.
 11. ***"dataset_fingerprint.json"***, ***"nnUNetPlans.json"***,***"dataset.json"*** files should place inside ***"/nnUNet_preprocessed/Dataset101_PETCT"*** path.    
 12. Model weights can be downloaded from [google drive](https://drive.google.com/drive/folders/1luNhXZtdn2d12nPmLOMWTAjNCiqQOu4u?usp=sharing)
 13. Plase the ***model weights*** inside the following path: ***"nnUNet_results\Dataset101_PETCT\nnUNetTrainer__nnUNetPlans__3d_fullres/"***. Inside ***'nnUNetTrainer__nnUNetPlans__3d_fullres'*** folder, model weights from **5 folds** in speparate folder be present. 

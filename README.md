@@ -10,9 +10,9 @@
 5. Create another folder ***"Dataset101_PETCT"*** inside ***'nnUNet_raw'***, ***'nnUNet_preprocessed'***,***'nnUNet_results'*** folders. This is important for nnUNet to identify which dataset to process.
 6. nnU-Net expects datasets in a structured format. This format is inspired by the data structure of the Medical Segmentation Decthlon. Please read the following link for dataset conversion: [how-to-use-nnUNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md)
 7. Image file should be in nifti format. USe the following package: [TCIA_processing](https://github.com/lab-midas/TCIA_processing) and use the following command:
-````
-  python3 -W ignore tcia_dicom_to_nifti.py /PATH/TO/DICOM/FDG-PET-CT-Lesions/ /PATH/TO/NIFTI/FDG-PET-CT-Lesions/
-````
+  ````
+    python3 -W ignore tcia_dicom_to_nifti.py /PATH/TO/DICOM/FDG-PET-CT-Lesions/ /PATH/TO/NIFTI/FDG-PET-CT-Lesions/
+  ````
 9.  PET images should be renamed as channel 1 input with ***'_0000.nii.gz'*** extension and CT images ***'_0001.nii.gz'***. Example PET image: ***PETCT_0ea07b421b_0000.nii.gz***, CT Image: ***PETCT_0ea07b421b_0001.nii.gz***
 10. The PET/CT image files needs to be put inside the ***'/nnUNet_raw/Dataset101_PETCT/imagesTe'*** path.
 11. ***"dataset_fingerprint.json"***, ***"nnUNetPlans.json"***,***"dataset.json"*** files should place inside ***"/nnUNet_preprocessed/Dataset101_PETCT"*** path.    

@@ -9,7 +9,7 @@
 4. Create a new folder (anyname). Create the following three sub-folder in this directory: ***'nnUNet_raw'***, ***'nnUNet_preprocessed'***,***'nnUNet_results'*** inside the folder. The names should be exactly the same.
 5. Create another folder ***"Dataset101_PETCT"*** inside ***'nnUNet_raw'***, ***'nnUNet_preprocessed'***,***'nnUNet_results'*** folders. This is important for nnUNet to identify which dataset to process.
 6. nnU-Net expects datasets in a structured format. This format is inspired by the data structure of the Medical Segmentation Decthlon. Please read the following link for dataset conversion: [how-to-use-nnUNet](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md)
-7. Image file should be in nifti format. USe the following package: [TCIA_processing](https://github.com/lab-midas/TCIA_processing) or use the following command:
+7. Image file should be in nifti format. USe the following package: [TCIA_processing](https://github.com/lab-midas/TCIA_processing) and use the following command:
 ````
   python3 -W ignore tcia_dicom_to_nifti.py /PATH/TO/DICOM/FDG-PET-CT-Lesions/ /PATH/TO/NIFTI/FDG-PET-CT-Lesions/
 ````

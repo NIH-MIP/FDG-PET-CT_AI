@@ -10,7 +10,7 @@ We have used 3D full resolution nnUNet model( https://www.nature.com/articles/s4
 3. Create a new folder (anyname). Create the following three sub-folder in this directory: 'nnUNet_raw', 'nnUNet_preprocessed','nnUNet_results' inside the folder. The names should be exactly the same.
 4. Create another folder "Dataset101_PETCT" inside 'nnUNet_raw', 'nnUNet_preprocessed','nnUNet_results' folders. This is important for nnUNet to identify which dataset to process.
 5. The image files needs to be put inside the '/nnUNet_raw/Dataset101_PETCT' path.
-6. put the following files inside '/nnUNet_preprocessed/Dataset101_PETCT' path.
+6. put the following files inside '/nnUNet_preprocessed/Dataset101_PETCT' path: "dataset_fingerprint.json", 'nnUNetPlans.json'
    
    
 7. nnU-Net expects datasets in a structured format. This format is inspired by the data structure of the Medical Segmentation Decthlon. Please read the following link for dataset conversion: https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md

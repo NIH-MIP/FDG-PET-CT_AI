@@ -1,7 +1,7 @@
 # FDG-PET/CT_AI
-## This repository is created to release the model weights for the following paper: "Development and validation of pan-cancer lesion segmentation AI-model for whole-body 18F-FDG PET/CT in diverse clinical cohorts". Please cite the paper if you are using the model. 
+### This repository is created to release the model weights for the following paper: "Development and validation of pan-cancer lesion segmentation AI-model for whole-body 18F-FDG PET/CT in diverse clinical cohorts". Please cite the paper if you are using the model. 
 
-## We have used 3D full resolution [nnUNet framework](https://www.nature.com/articles/s41592-020-01008-z). Follow the instrustion below to run inference on new dataset using our model. 
+### We have used 3D full resolution [nnUNet framework](https://www.nature.com/articles/s41592-020-01008-z). Follow the instrustion below to run inference on new dataset using our model. 
 
 1. First, create a conda environment. You can name it to your liking; for example, ***'petct-env'***.
 2. Install nnUNet. Installation process can be found in the following link: [documentation/installation_instructions.md](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md)

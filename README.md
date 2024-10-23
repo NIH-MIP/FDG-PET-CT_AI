@@ -20,3 +20,8 @@
 13. Plase the ***model weights*** inside the following path: ***"nnUNet_results\Dataset101_PETCT\nnUNetTrainer__nnUNetPlans__3d_fullres/"***. Inside ***'nnUNetTrainer__nnUNetPlans__3d_fullres'*** folder, model weights from **5 folds** in speparate folder be present. 
 14. Once everything is set, run the bash file ***"inference.sh"*** to run inference using the model weights. Please modify the folder paths ***'nnUNet_raw'***, ***'nnUNet_preprocessed'***,***'nnUNet_results'*** according to your set up directories inside the *.sh* file.
 
+##MONAI UNet Training
+### We have provided scripts to train and run inference MONAI UNet model. 
+1. Train_monai_Unet.py is used to train the model. Dataset folder, Output folder path need to be set in the script. The MONAI transforms will be varied based on different varient studied in the paper. Modifications are needed to be made accordingly.
+2. create_dataset_monai_unet.py file prepares the dataset in MONAI readable format. MONAI expects train data in a dictionary format, with image and label names. This script creats, stratified train, validation and test splis of the AUTOPET dataset and then create dictionary out of this for model training.
+3. Inference_monai_Unet.py is used to run inference on validation and test set to observe the performance. Dataset folder, Output folder path need to be set in the script. This script will save the input image, ground truth mask and predicted masks in the output folders for both validation and test set. 
